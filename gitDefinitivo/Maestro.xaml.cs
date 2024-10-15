@@ -24,11 +24,9 @@ namespace gitDefinitivo;
         App.FlyoutPage.IsPresented = false;
     }
 
-
-    public static void presiona()
+    private void Button_Clicked(object sender, EventArgs e)
     {
         NavigationToPage(new Prueba());
+        OcultarDetalles();
     }
-
-
 }
