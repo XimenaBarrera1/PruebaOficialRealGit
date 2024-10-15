@@ -31,5 +31,7 @@
             Margin="20,10">
             </Button>
 
+        </VerticalStackLayout>
+    </ScrollView>
     
 </ContentPage>
