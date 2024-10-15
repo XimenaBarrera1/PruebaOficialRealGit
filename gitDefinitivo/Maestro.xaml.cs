@@ -41,4 +41,9 @@ namespace gitDefinitivo;
     }
 
 
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+        NavigationToPage(new Prueba());
+        OcultarDetalles();
+    }
 }

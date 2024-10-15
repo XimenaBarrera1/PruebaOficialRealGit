@@ -17,9 +17,11 @@
              Margin="20,10">
             </Button>
 
-
+            <Button Text="presiona" 
+            Clicked="Button_Clicked"
+            Margin="20,10">
+            </Button>
 
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>
